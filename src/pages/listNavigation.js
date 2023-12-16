@@ -15,14 +15,14 @@ export const optionsNavBar = [
         name: "Skills",
         path: "/skills"
     },
-    {
-        name: "Education",
-        path: "/education"
-    },
-    {
-        name: "Resume",
-        path: "/resume"
-    },
+    // {
+    //     name: "Education",
+    //     path: "/education"
+    // },
+    // {
+    //     name: "Resume",
+    //     path: "/resume"
+    // },
     {
         name: "Contact",
         path: "/contact"
