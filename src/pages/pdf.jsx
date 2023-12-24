@@ -1,0 +1,24 @@
+import pdfImage from "../sources/pdf/Oscar Marino Beltran Dukmak.pdf";
+
+export default function Pdf() {
+    const pdfUrl = `${pdfImage}#toolbar=0`;
+    
+    return (
+        <div className="pdf-container absolute mt-14 md:w-screen w-screen h-screen ">
+            <button className="absolute md:bg-black bg-red-800 font-bold w-36 h-12 rounded-full
+            border-solid border-4 border-white border-opacity-53 hover:scale-125 z-20 md:mt-[36%] md:ml-[86%]
+            ml-[72%] mt-[72%] ">
+                <a href={pdfImage} download="Resume_Oscar_Beltran.pdf">
+                    PDF download
+                </a>
+            </button>
+            <object 
+            data={pdfUrl} 
+            type="application/pdf"
+            width="100%"
+            height="100%"
+            >
+            </object>
+        </div>
+    )
+}
