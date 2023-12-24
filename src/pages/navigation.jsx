@@ -41,11 +41,16 @@ export function Navigation() {
       </div>
 
       <input type="checkbox" id="menu" className="peer hidden" />
-      <label htmlFor="menu" className="peer-checked:hidden z-50 pr-12" onClick={handleMenuOpen}>
-        {<GiHamburgerMenu className="flex text-2xl font-semibold cursor-pointer md:hidden" />}
-      </label>
-      <label htmlFor="menu" className="hidden peer-checked:block z-50 pr-12" onClick={handleMenuOpen}>
-        {<FaTimes className="flex text-2xl font-semibold cursor-pointer md:hidden" />}
+      <label
+        htmlFor="menu"
+        className="z-50 pr-12"
+        onClick={handleMenuOpen}
+      >
+        {isMenuOpen ? (
+          <GiHamburgerMenu className="flex text-2xl font-semibold cursor-pointer md:hidden" />
+        ) : (
+          <FaTimes className="flex text-2xl font-semibold cursor-pointer md:hidden" />
+        )}
       </label>
 
       <div
@@ -74,7 +79,7 @@ export function Navigation() {
           <button className="md:h-full rounded-3xl md:w-auto w-48 px-12 md:px-4 mx-auto bg-red-800 
           text-2xl hover:scale-[110%]">
             <Link to="/pdf" onClick={() => {
-              setMenuOpen(true)
+              setMenuOpen(false)
               setActiveLink(false)
             }}>
               Resumen

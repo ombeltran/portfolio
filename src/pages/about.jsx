@@ -45,14 +45,14 @@ const About = () => {
             chain and logistics, through which I managed to develop <span className="text-red-800 font-semibold">
               data analysis and process improvement skills</span>, as well as a broad group of <span className="text-red-800 font-semibold"> soft skills</span>.
           </p>
-          <div className="pr-[30%]">
+          <div className="pr-[10%] md:pr-[30%]">
             <p className="pb-6">
               These are the technologies I have been working with:
             </p>
 
-            <div className="grid grid-cols-2 md:grid-cols-4  gap-16 mb-8">
-              {skills.map(({ name, icon }) => (
-                <span className="text-white flex gap-3">
+            <div className="grid grid-cols-1 md:grid-cols-4  gap-16 mb-8">
+              {skills.map(({ name, icon }, index) => (
+                <span key={index} className="text-white flex gap-3">
                   {icon}
                   {name}
                 </span>
@@ -63,9 +63,9 @@ const About = () => {
               These are the technologies I'm learning right now:
             </p>
             
-            <div className="grid grid-cols-2 md:grid-cols-4  gap-4 pb-12">
-              {newSkills.map(({ name, icon }) => (
-                <span className="text-white flex gap-3">
+            <div className="grid grid-cols-1 md:grid-cols-4  gap-4 pb-12">
+              {newSkills.map(({ name, icon }, index) => (
+                <span key={index} className="text-white flex gap-3">
                   {icon}
                   {name}
                 </span>
