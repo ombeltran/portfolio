@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
-    <div className="absolute mt-5 h-screen w-screen block pt-[14%] lg:pt-[8%]">
+    <div className="absolute mt-5 h-screen w-screen block pt-[18%] md:pt-[14%] lg:pt-[8%]">
       <motion.h1
         className="text-center text-5xl font-bold pb-10"
         initial="hidden"

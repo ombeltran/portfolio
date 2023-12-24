@@ -35,7 +35,7 @@ const Contact = () => {
 
   return (
     <motion.div
-      className="pt-[19%] lg:pt-[9%] absolute"
+      className="pt-[22%] md:pt-[19%] lg:pt-[9%] absolute"
       initial="hidden"
       animate="visible"
       variants={{

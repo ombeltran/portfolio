@@ -4,7 +4,7 @@ import { newSkills, skills } from "./listSkills";
 const About = () => {
   return (
     <motion.div
-      className="h-screen flex pt-[18%] lg:pt-[9%] justify-center"
+      className="h-screen flex pt-[22%] md:pt-[18%] lg:pt-[9%] justify-center"
       initial="hidden"
       animate="visible"
       variants={{

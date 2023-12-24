@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Home = () => {
   return (
     <motion.div
-      className="h-screen flex flex-col pt-[18%] lg:pt-[12%] items-center"
+      className="h-screen flex flex-col pt-[22%] md:pt-[18%] lg:pt-[12%] items-center"
       initial="hidden"
       animate="visible"
       variants={{
@@ -28,7 +28,7 @@ const Home = () => {
       >
         Oscar Beltrán
       </motion.h1>
-      <h3 className="text-2xl pb-4 mx-auto max-w-[40%] text-center">
+      <h3 className="text-2xl pb-4 mx-auto max-w-[60%] md:max-w-[40%] text-center">
         I am a <span className="text-red-800">Full Stack Developer</span>, passionate about the tech world. I am always looking to learn and improve my knowledge more and more.
       </h3>
       <div className="pt-[3%] flex justify-center">

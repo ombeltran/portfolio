@@ -60,7 +60,7 @@ export function Navigation() {
       >
         <ul
           className={`absolute inset-x-0 top-20 p-12 bg-zinc-800 w-[90%] mx-auto rounded-2xl h-max
-            text-center grid gap-16 text-[22px] font-semibold shadow-2xl
+            text-center grid gap-14 text-[22px] font-semibold shadow-2xl
             md:w-max md:bg-transparent md:p-0 md:grid-flow-col md:static `}
         >
           {optionsNavBar.map(({ path, name }, index) => (
@@ -79,7 +79,8 @@ export function Navigation() {
           <button className="md:h-full rounded-3xl md:w-auto w-48 px-12 md:px-4 mx-auto bg-red-800 
           text-2xl hover:scale-[110%]">
             <Link to="/pdf" onClick={() => {
-              setMenuOpen(false)
+              // setMenuOpen(false)
+              handleMenuOpen()
               setActiveLink(false)
             }}>
               Resumen
