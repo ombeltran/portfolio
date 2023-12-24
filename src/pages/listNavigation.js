@@ -11,18 +11,6 @@ export const optionsNavBar = [
         name: "Projects",
         path: "/projects"
     },
-    // {
-    //     name: "Resume",
-    //     path: "/pdf"
-    // },
-    // {
-    //     name: "Education",
-    //     path: "/education"
-    // },
-    // {
-    //     name: "Resume",
-    //     path: "/resume"
-    // },
     {
         name: "Contact",
         path: "/contact"
