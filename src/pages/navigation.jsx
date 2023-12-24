@@ -60,7 +60,7 @@ export function Navigation() {
       >
         <ul
           className={`absolute inset-x-0 top-20 p-12 bg-zinc-800 w-[90%] mx-auto rounded-2xl h-max
-            text-center grid gap-14 text-[22px] font-semibold shadow-2xl
+            text-center grid gap-8 md:gap-14 text-[22px] font-semibold shadow-2xl
             md:w-max md:bg-transparent md:p-0 md:grid-flow-col md:static `}
         >
           {optionsNavBar.map(({ path, name }, index) => (
