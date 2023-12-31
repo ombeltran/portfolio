@@ -4,10 +4,10 @@ export const myListProjects = [
         description: "Project Jamming with React, this get a music API that give you a music list of your favorite singer",
         tecnology: "React js and Node js",
         git: "https://github.com/ombeltran/jamming_project_omb",
-        url: "https://ombeltran.github.io/jamming_project_omb/"
+        url: "https://jamming-sq78.onrender.com/"
     },
     {
-        name: "ProdMonito",
+        name: "ProdMonitor",
         description: "Application with a CRUD system that permit to get a report of a inspection process. It was deploy on hosting web.",
         tecnology: "React js, Node js and postgreSQL.",
         git: "https://github.com/ombeltran/ProdMonitor.git",
