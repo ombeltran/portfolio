@@ -14,8 +14,10 @@ export const myListProjects = [
         url: "https://frontend-prodmonitor.onrender.com/"
     },
     {
-        name: "5ta Estación Fast Food",
+        name: "Restaurant Fast Food",
         description: "Website of a fast food store, which shows its products, has a shopping cart and allows you to place an order via WhatsApp API.",
-        tecnology: "React js, Node js and postgreSQL"
+        tecnology: "React js + Vite and Tailwind",
+        git: "https://github.com/ombeltran/restaurant.git",
+        url: "https://restaurant-ncx1.onrender.com/"
     }
 ]
