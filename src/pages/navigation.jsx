@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 import { optionsNavBar } from "./listNavigation";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaTimes } from "react-icons/fa";
+import { IoCloudDownload } from "react-icons/io5";
 import logoImage from "../sources/images/logoOscarBeltran.png";
+import pdfImage from "../sources/pdf/Oscar Marino Beltran Dukmak.pdf";
 
 export function Navigation() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -76,15 +78,19 @@ export function Navigation() {
             </li>
           ))}
 
-          <button className="md:h-full rounded-3xl md:w-auto w-48 px-12 md:px-4 mx-auto bg-red-800 
+          <button className="md:h-full rounded-3xl w-auto px-6 py-1 md:px-4 mx-auto bg-red-800 
           text-2xl hover:scale-[110%]">
-            <Link to="/pdf" onClick={() => {
-              // setMenuOpen(false)
-              handleMenuOpen()
-              setActiveLink(false)
-            }}>
+            <a
+              href={pdfImage}
+              download="Resume_Oscar_Beltran.pdf"
+              className="flex items-center gap-3"
+              onClick={() => {
+                handleMenuOpen()
+                setActiveLink(false)
+              }}>
               Resumen
-            </Link>
+              <IoCloudDownload />
+            </a>
           </button>
 
         </ul>
