@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.975638d8.css",
-    "main.js": "/static/js/main.e16deb48.js",
+    "main.js": "/static/js/main.3fd063d1.js",
     "static/media/Oscar Marino Beltran Dukmak.pdf": "/static/media/Oscar Marino Beltran Dukmak.5f9bce81c8d3508c907c.pdf",
     "static/media/logoOscarBeltran.png": "/static/media/logoOscarBeltran.0cf9d5ac19d19f16fb59.png",
     "index.html": "/index.html",
     "main.975638d8.css.map": "/static/css/main.975638d8.css.map",
-    "main.e16deb48.js.map": "/static/js/main.e16deb48.js.map"
+    "main.3fd063d1.js.map": "/static/js/main.3fd063d1.js.map"
   },
   "entrypoints": [
     "static/css/main.975638d8.css",
-    "static/js/main.e16deb48.js"
+    "static/js/main.3fd063d1.js"
   ]
 }
