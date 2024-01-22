@@ -88,7 +88,7 @@ export function Navigation() {
                 handleMenuOpen()
                 setActiveLink(false)
               }}>
-              Resumen
+              Resume
               <IoCloudDownload />
             </a>
           </button>
