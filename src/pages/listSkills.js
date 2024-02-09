@@ -6,6 +6,8 @@ import { SiGithub } from "react-icons/si";
 import { BsBootstrapFill } from "react-icons/bs";
 import { SiPython } from "react-icons/si";
 import { Icon } from '@iconify/react';
+import { SiPostgresql } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
 
 export const skills = [
     {
@@ -36,6 +38,14 @@ export const skills = [
         name: "Git/GitHub",
         icon: <SiGithub className="scale-[110%] my-auto"/>
     },
+    {
+        name: "PostgreSQL",
+        icon: <SiPostgresql className="scale-[170%] my-auto"/>
+    },
+    {
+        name: "Mongodb",
+        icon: <SiMongodb className="scale-[120%] my-auto"/>
+    }
 ];
 
 export const newSkills = [
