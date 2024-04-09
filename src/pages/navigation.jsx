@@ -78,7 +78,7 @@ export function Navigation() {
             </li>
           ))}
 
-          <button className="md:h-full rounded-3xl w-auto px-6 py-1 md:px-4 mx-auto bg-red-800 
+          {/* <button className="md:h-full rounded-3xl w-auto px-6 py-1 md:px-4 mx-auto bg-red-800 
           text-2xl hover:scale-[110%]">
             <a
               href={pdfImage}
@@ -91,7 +91,7 @@ export function Navigation() {
               Resume
               <IoCloudDownload />
             </a>
-          </button>
+          </button> */}
 
         </ul>
       </div>
