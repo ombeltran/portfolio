@@ -8,6 +8,9 @@ import { SiPython } from "react-icons/si";
 import { Icon } from '@iconify/react';
 import { SiPostgresql } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { SiSqlite } from "react-icons/si";
 
 export const skills = [
     {
@@ -23,8 +26,16 @@ export const skills = [
         icon: <Icon icon="ri:javascript-line" className="scale-[150%] my-auto" />
     },
     {
+        name: "TypeScript",
+        icon: <SiTypescript className="scale-[115%] my-auto"/>
+    },
+    {
         name: "React js",
         icon: <FaReact className="my-auto"/>
+    },
+    {
+        name: "Next js",
+        icon: <SiNextdotjs className="scale-[115%] my-auto"/>
     },
     {
         name: "Node js",
@@ -32,7 +43,11 @@ export const skills = [
     },
     {
         name: "TailwindCss",
-        icon: <Icon icon="teenyicons:tailwind-solid" className="scale-[220%] my-auto"/>
+        icon: <Icon icon="teenyicons:tailwind-solid" className="scale-[150%] my-auto"/>
+    },
+    {
+        name: "Bootstrap",
+        icon: <BsBootstrapFill className="my-auto"/>
     },
     {
         name: "Git/GitHub",
@@ -40,7 +55,11 @@ export const skills = [
     },
     {
         name: "PostgreSQL",
-        icon: <SiPostgresql className="scale-[170%] my-auto"/>
+        icon: <SiPostgresql className="scale-[130%] my-auto"/>
+    },
+    {
+        name: "SQLite",
+        icon: <SiSqlite className="scale-[120%] my-auto"/>
     },
     {
         name: "Mongodb",
@@ -49,10 +68,6 @@ export const skills = [
 ];
 
 export const newSkills = [
-    {
-        name: "Bootstrap",
-        icon: <BsBootstrapFill className="my-auto"/>
-    },
     {
         name: "Python",
         icon: <SiPython className="my-auto"/>

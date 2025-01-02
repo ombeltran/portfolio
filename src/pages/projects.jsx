@@ -39,9 +39,13 @@ const Projects = () => {
                 <a href={git} target="_blank" rel="noopener noreferrer">
                   <FaGithub className="cursor-pointer" />
                 </a>
-                <a href={url} target="_blank" rel="noopener noreferrer">
-                  <FaLink className="cursor-pointer" />
-                </a>
+                {
+                  url && (
+                    <a href={url} target="_blank" rel="noopener noreferrer">
+                      <FaLink className="cursor-pointer" />
+                    </a>
+                  )
+                }
               </div>
             </div>
             <div>
