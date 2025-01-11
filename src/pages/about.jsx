@@ -28,26 +28,19 @@ const About = () => {
         </motion.h2>
         <div className="text-lg">
           <p className="pb-6">
-            I currently work as a freelance full stack developer, I love being able to offer
-            highly functional products that integrate technologies such as
-            <span className="text-red-800 font-semibold"> React js and Node js</span>.
+            I’m a passionate full-stack developer who specializes in delivering highly functional, user-friendly web applications using cutting-edge technologies like <span className="text-red-800 font-semibold">React.js and Node.js</span>. Whether you need to streamline your business operations or build a customized online presence, I’m here to help.
           </p>
           <p className="pb-6">
-            I have gained experience in developing applications that incorporate
-            <span className="text-red-800 font-semibold"> CRUD operations</span>,
-            with strong integration between <span className="text-red-800 font-semibold"> backend </span>
-            and <span className="text-red-800 font-semibold"> frontend</span>. Thus working on the creation
-            of systems that allow complete data management, from creation and reading to updating
-            and deletion, providing a fluid and efficient experience for users.
+            Over the years, I’ve gained extensive experience developing <span className="text-red-800 font-semibold"> CRUD-based applications</span>, ensuring seamless communication between <span className="text-red-800 font-semibold">frontend and backend</span>. This allows me to create efficient systems for data management that provide users with a smooth and intuitive experience.
+
+            Beyond web development, my background in supply chain and logistics has sharpened my problem-solving, data analysis, and process optimization skills. Combined with my technical expertise, I deliver products that not only work but solve real-world challenges.
           </p>
           <p className="pb-6">
-            I have extensive <span className="text-red-800 font-semibold"> work experience </span>in the supply
-            chain and logistics, through which I managed to develop <span className="text-red-800 font-semibold">
-              data analysis and process improvement skills</span>, as well as a broad group of <span className="text-red-800 font-semibold"> soft skills</span>.
+            As a <span className="text-red-800 font-semibold">freelancer</span>, I collaborate with small businesses, entrepreneurs, and individuals to bring their ideas to life. From building visually stunning websites to developing full-featured systems, I adapt to each client’s unique needs. My goal is to deliver tailor-made solutions that elevate your brand or streamline your workflows.
           </p>
           <div className="pr-[10%] md:pr-[30%]">
             <p className="pb-6">
-              These are the technologies I have been working with:
+              Technologies I work with:
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-4  gap-16 mb-8">
@@ -60,9 +53,9 @@ const About = () => {
             </div>
 
             <p className="pb-6">
-              These are the technologies I'm learning right now:
+            Currently learning:
             </p>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-4  gap-4 pb-12">
               {newSkills.map(({ name, icon }, index) => (
                 <span key={index} className="text-white flex gap-3">
