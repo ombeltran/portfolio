@@ -4,7 +4,7 @@ export const myListProjects = [
         description: "Website of a fast food store, which shows its products, has a shopping cart and allows you to place an order, the information of which is sent to WhatsApp",
         tecnology: "React js + Vite and Tailwind.",
         git: "https://github.com/ombeltran/restaurant.git",
-        url: "https://restaurant-ncx1.onrender.com/"
+        url: "https://fivethstation.onrender.com/"
     },
     {
         name: "Information system",
