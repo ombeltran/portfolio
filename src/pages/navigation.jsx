@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import { optionsNavBar } from "./listNavigation";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaTimes } from "react-icons/fa";
-import { IoCloudDownload } from "react-icons/io5";
+// import { IoCloudDownload } from "react-icons/io5";
 import logoImage from "../sources/images/logoOscarBeltran.png";
-import pdfImage from "../sources/pdf/Oscar Marino Beltran Dukmak.pdf";
+// import pdfImage from "../sources/pdf/Oscar Marino Beltran Dukmak.pdf";
 
 export function Navigation() {
   const [isMenuOpen, setMenuOpen] = useState(false);
