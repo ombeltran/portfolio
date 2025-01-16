@@ -9,7 +9,7 @@ export const myListProjects = [
     },
     {
         name: "Information system",
-        description: "Web application in the demo stage, designed to manage information for the returns department of a company specializing in buying and selling electronics.",
+        description: "Web application in the demo stage, designed to manage information for the returns department of a company specializing in buying and selling electronics. This is hosting in a service server free, so it'll take 50 seconds to start to display the application",
         tecnology: "Next js and React js using Typescript.",
         git: "https://github.com/ombeltran/information-system.git",
         url: "https://information-system.onrender.com/",
