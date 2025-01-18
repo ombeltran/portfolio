@@ -55,7 +55,7 @@ const Projects = () => {
         transition={{ delay: 0.2, duration: 0.5 }}
       >
         {myListProjects.map(({ name, description, tecnology, git, url, image }, index) => (
-          <Card key={index} className="max-w-[310px] min-w-[260px] min-h-[300px] h-auto mb-10 border-solid border-white border-2 border-opacity-60">
+          <Card key={index} className="max-w-[310px] min-w-[260px] min-h-[400px] h-auto mb-10 border-solid border-white border-2 border-opacity-60">
             <div className="flex justify-between">
               <FaFolder />
               <div className="flex gap-3">
