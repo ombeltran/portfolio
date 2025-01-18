@@ -91,7 +91,7 @@ const Projects = () => {
       {/* Window that show projects photos */}
       {
         photo && (
-          <Card className="fixed z-50 md:top-[20%] md:h-[45%] md:left-[22.5%] md:w-[55%] left-[5%] w-[90%] top-[25%] h-[50%] border-solid border-white border-2 border-opacity-60">
+          <Card className="fixed z-50 md:top-[27%%] md:h-[55%] md:left-[22.5%] md:w-[55%] left-[5%] w-[90%] top-[25%] h-[50%] border-solid border-white border-2 border-opacity-60">
             <IoIosCloseCircle
               className="absolute right-3 top-3 text-3xl cursor-pointer z-50"
               onClick={() => setPhoto(!photo)}
@@ -104,11 +104,11 @@ const Projects = () => {
                     <Slider {...settings} key={index} className="mt-10">
                       {
                         image.map((i, id) => (
-                          <div key={id} className="h-[600px]">
+                          <div key={id} className="max-h-[600px]">
                               <img
                                 src={i}
                                 alt={`${id + 1}`}
-                                className="rounded-lg mx-auto max-h-[600px]"
+                                className="rounded-lg mx-auto h-[300px]"
                               />
                           </div>
                         ))
