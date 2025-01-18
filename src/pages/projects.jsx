@@ -91,7 +91,7 @@ const Projects = () => {
       {/* Window that show projects photos */}
       {
         photo && (
-          <Card className="fixed z-50 md:top-[27%%] md:h-[55%] md:left-[22.5%] md:w-[55%] left-[5%] w-[90%] top-[25%] h-[50%] border-solid border-white border-2 border-opacity-60">
+          <Card className="fixed z-50 md:top-[27%%] md:h-[420px] md:left-[32.5%] md:w-[768px] left-[5%] w-[90%] top-[25%] h-[50%] border-solid border-white border-2 border-opacity-60">
             <IoIosCloseCircle
               className="absolute right-3 top-3 text-3xl cursor-pointer z-50"
               onClick={() => setPhoto(!photo)}
