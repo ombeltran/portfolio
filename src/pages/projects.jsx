@@ -59,9 +59,13 @@ const Projects = () => {
             <div className="flex justify-between">
               <FaFolder />
               <div className="flex gap-3">
-                <a href={git} target="_blank" rel="noopener noreferrer">
-                  <FaGithub className="cursor-pointer" />
-                </a>
+                {
+                  git && (
+                    <a href={git} target="_blank" rel="noopener noreferrer">
+                      <FaGithub className="cursor-pointer" />
+                    </a>
+                  )
+                }
                 {
                   url && (
                     <a href={url} target="_blank" rel="noopener noreferrer">
@@ -105,11 +109,11 @@ const Projects = () => {
                       {
                         image.map((i, id) => (
                           <div key={id} className="max-h-[600px]">
-                              <img
-                                src={i}
-                                alt={`${id + 1}`}
-                                className="rounded-lg mx-auto h-[300px]"
-                              />
+                            <img
+                              src={i}
+                              alt={`${id + 1}`}
+                              className="rounded-lg mx-auto h-[300px]"
+                            />
                           </div>
                         ))
                       }
