@@ -1,0 +1,16 @@
+src/
+
+components/
+├─ Navbar.jsx
+├─ Hero.jsx
+├─ KPIs.jsx
+├─ ProjectCard.jsx
+
+sections/
+├─ About.jsx
+├─ Projects.jsx
+├─ Experience.jsx
+├─ Skills.jsx
+├─ Contact.jsx
+
+App.jsx

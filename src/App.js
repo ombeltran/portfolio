@@ -1,20 +1,28 @@
-import { Routes, Route } from "react-router-dom";
-import { Navigation } from "./pages/navigation";
-import Home from "./pages/home.jsx";
-import About from "./pages/about.jsx";
-import Projects from "./pages/projects.jsx";
-import Contact from "./pages/contact.jsx";
+import Navbar from "./components/navBar";
+
+import Hero from "./sections/hero";
+import About from "./sections/about";
+import Projects from "./sections/projects";
+import Experience from "./sections/experience";
+import Skills from "./sections/skills";
+import Contact from "./sections/contact";
 
 function App() {
   return (
-    <div className="text-white">
-      <Navigation />
-      <Routes>
-        <Route path="/" element={<Home /> } />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+    <div className="bg-[#0B0F19] text-white">
+      <Navbar />
+
+      <Hero />
+
+      <About />
+
+      <Projects />
+
+      <Experience />
+
+      <Skills />
+
+      <Contact />
     </div>
   );
 }
