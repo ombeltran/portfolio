@@ -7,17 +7,17 @@ import {
 export const contactLinks = [
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/tu-linkedin",
+    href: "https://www.linkedin.com/in/oscarmarinobeltrandukmak",
     icon: FaLinkedin,
   },
   {
     label: "GitHub",
-    href: "https://github.com/tu-usuario",
+    href: "https://github.com/ombeltran",
     icon: FaGithub,
   },
   {
     label: "Email",
-    href: "mailto:tu-email@gmail.com",
+    href: "mailto:ombeltranduk@gmail.com",
     icon: FaEnvelope,
   },
 ];

@@ -4,44 +4,59 @@ export const projects = [
     category: "Quality Systems",
     description:
       "Internal platform for quality operations, reporting, dashboards, team management and traceability.",
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
-    technologies: ["Next.js", "TypeScript", "Prisma", "SQLite"],
+    images:[
+      "/imgProjects/QualityManagementPlatform_1.png",
+      "/imgProjects/QualityManagementPlatform_2.png",
+      "/imgProjects/QualityManagementPlatform_3.png",
+      "/imgProjects/QualityManagementPlatform_4.png",
+      "/imgProjects/QualityManagementPlatform_5.png",
+      "/imgProjects/QualityManagementPlatform_6.png",
+    ],
+    technologies: ["Next.js", "TypeScript", "Prisma", "SQLite", "Authentication"],
+    mobile: false,
   },
   {
     title: "ISO KPI Dashboard",
     category: "Data Analytics",
     description:
       "Dashboard designed to track quality KPIs, nonconformities, FPY and manufacturing performance.",
-    image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
-    technologies: ["Excel", "Power Query", "VBA", "Analytics"],
+    images:[
+      "/imgProjects/ISOKPIDashboard_1.png",
+      "/imgProjects/ISOKPIDashboard_2.png",
+    ],
+    technologies: ["Excel", "Power Query", "VBA", "Analytics", "Data Visualization"],
+    mobile: true,
   },
   {
-    title: "Staff Control System",
+    title: "Employee Time Reporting System",
     category: "Operations",
     description:
-      "Workforce management system for attendance, shifts, user roles and operational visibility.",
-    image:
-      "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=1200&q=80",
-    technologies: ["React", "Node.js", "SQLite", "Authentication"],
+      "Cross-platform desktop application designed to manage employee attendance, time reporting, shift tracking, and workforce operational visibility. Built for manufacturing environments to streamline workforce administration and reporting processes.",
+    images: [
+      "/imgProjects/StaffControlSystem_1.png",
+      "/imgProjects/StaffControlSystem_2.png",
+      "/imgProjects/StaffControlSystem_3.png",
+      "/imgProjects/StaffControlSystem_4.png",
+      "/imgProjects/StaffControlSystem_5.png",
+    ],
+    technologies: ["Electron", "JavaScript", "Node.js", "SQLite", "Desktop Development"],
+    mobile: false,
   },
   {
     title: "Mercatto Mobile App",
     category: "Mobile Application",
     description:
-      "Mobile app concept for grocery shopping, voice interaction and smart list management.",
-    image:
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80",
-    technologies: ["React Native", "Expo", "SQLite", "i18next"],
-  },
-  {
-    title: "Electron Desktop App",
-    category: "Desktop Software",
-    description:
-      "Desktop application built to support internal workflows and improve operational processes.",
-    image:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&q=80",
-    technologies: ["Electron", "React", "JavaScript"],
+      "Mobile app concept for grocery shopping, voice interaction with multilingual support and smart list management.",
+    images: [
+      "/imgProjects/MercattoMobileApp_1.png",
+      "/imgProjects/MercattoMobileApp_2.png",
+      "/imgProjects/MercattoMobileApp_3.png",
+      "/imgProjects/MercattoMobileApp_4.png",
+      "/imgProjects/MercattoMobileApp_5.png",
+      "/imgProjects/MercattoMobileApp_6.png",
+      "/imgProjects/MercattoMobileApp_7.png",
+    ],
+    technologies: ["React Native", "Expo", "Prisma", "SQLite", "i18next", "TypeScript", "Expo Router", "AsyncStorage",],
+    mobile: true,
   },
 ];

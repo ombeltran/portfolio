@@ -41,13 +41,21 @@ export default function Hero() {
             </p>
 
             <div className="mt-10 flex gap-4">
-              <button className="px-6 py-3 bg-emerald-500 rounded-xl font-medium hover:scale-105 transition">
+              <a
+                href="#projects"
+                className="px-6 py-3 bg-emerald-500 rounded-xl font-medium hover:scale-105 transition"
+              >
                 View Projects
-              </button>
+              </a>
 
-              <button className="px-6 py-3 border border-gray-700 rounded-xl font-medium hover:bg-white/5 transition">
-                Download Resume
-              </button>
+              <a
+                href="/Oscar_Beltran_Resume.pdf"
+                target="_blank"
+                rel="noreferrer"
+                className="px-6 py-3 border border-gray-700 rounded-xl font-medium hover:bg-white/5 transition"
+              >
+                Download Resume (PDF)
+              </a>
             </div>
           </div>
 
@@ -63,7 +71,12 @@ export default function Hero() {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-[450px] object-cover"
+                className={`w-full h-[450px] 
+                  ${
+                    project.Mobile
+                      ? "object-contain bg-black"
+                      : "object-cover "
+                  }`}
               />
             </div>
           </div>

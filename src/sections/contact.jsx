@@ -28,23 +28,31 @@ export default function Contact() {
                   href={link.href}
                   target={link.label === "Email" ? "_self" : "_blank"}
                   rel="noreferrer"
-                  className="flex items-center gap-4 rounded-2xlborder border-gray-800 bg-white/5 px-6 py-4 text-lg font-medium text-gray-200 transition hover:border-emerald-500/50 hover:bg-emerald-500/10 hover:text-emerald-400"
+                  className="flex items-center gap-4 rounded-2xl border border-gray-800 bg-white/5 px-6 py-4 text-lg font-medium text-gray-200 transition hover:border-emerald-500/50 hover:bg-emerald-500/10 hover:text-emerald-400"
                 >
                   <link.icon className="text-2xl" />
 
-                  <span>{link.label}</span>
+                  <div>
+                    <div>{link.label}</div>
+
+                    {link.label === "Email" && (
+                      <div className="text-sm text-gray-400">
+                        ombeltranduk@gmail.com
+                      </div>
+                    )}
+                  </div>
                 </a>
               ))}
 
               <a
-                href="/Oscar-Beltran-Resume.pdf"
+                href="/Oscar_Beltran_Resume.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center justify-center gap-3 rounded-2xl bg-emerald-500 px-6 py-4 text-lg font-semibold text-white transition hover:scale-[1.02]"
               >
                 <FaFilePdf className="text-xl" />
 
-                <span>Download Resume</span>
+                <span>Download Resume (PDF)</span>
               </a>
             </div>
           </div>
