@@ -63,7 +63,7 @@ export default function About() {
         {/* KPI cards */}
         <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           <div className="rounded-3xl border border-gray-800 bg-[#111827] p-8 text-center">
-            <div className="text-5xl font-bold text-emerald-400">10+</div>
+            <div className="text-5xl font-bold text-emerald-400">20+</div>
 
             <div className="mt-3 text-gray-400">Years Experience</div>
           </div>
@@ -81,9 +81,9 @@ export default function About() {
           </div>
 
           <div className="rounded-3xl border border-gray-800 bg-[#111827] p-8 text-center">
-            <div className="text-5xl font-bold text-emerald-400">100%</div>
+            <div className="text-5xl font-bold text-emerald-400">50+</div>
 
-            <div className="mt-3 text-gray-400">Business Focused</div>
+            <div className="mt-3 text-gray-400">Processes Automated</div>
           </div>
         </div>
       </div>
