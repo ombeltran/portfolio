@@ -69,6 +69,17 @@ export default function ProjectCard({ project }) {
             </span>
           ))}
         </div>
+
+        {project.liveUrl && (
+          <a
+            href={project.liveUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-5 inline-flex items-center rounded-md bg-emerald-500 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-emerald-400"
+          >
+            View Live Demo ↗
+          </a>
+        )}
       </div>
     </article>
   );
