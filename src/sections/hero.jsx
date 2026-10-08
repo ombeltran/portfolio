@@ -36,8 +36,8 @@ export default function Hero() {
             </h1>
 
             <p className="mt-8 text-xl text-gray-400 max-w-xl">
-              Industrial Engineer with experience in supply chain, quality
-              systems, business analytics and custom software solutions.
+              Industrial Engineer and Software Developer building data driven 
+              solutions for supply chain, manufacturing and operations.
             </p>
 
             <div className="mt-10 flex gap-4">

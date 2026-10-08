@@ -15,9 +15,7 @@ export default function Contact() {
               <h2 className="text-4xl font-bold md:text-6xl">Let’s connect.</h2>
 
               <p className="mt-6 max-w-2xl text-lg leading-relaxed text-gray-400">
-                I am open to opportunities in supply chain, quality systems,
-                manufacturing analytics, business analysis, and data-driven
-                operational roles.
+                Open to software development, business systems, data analytics and operations technology opportunities.
               </p>
             </div>
 

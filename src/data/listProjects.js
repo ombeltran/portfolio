@@ -1,9 +1,34 @@
 export const projects = [
   {
+    title: "Turnix Queue & Appointment Platform",
+    liveUrl: "https://turnix-saas.onrender.com/",
+    category: "Business Software",
+    description:
+      "Modular web platform for appointment scheduling, on-site queue management and payment tracking. Includes a customer-facing booking experience and an administrative dashboard to manage services, staff, clients, queue flow, payments, reporting and branding.",
+    images: [
+      "/imgProjects/Turnix_1.png",
+      "/imgProjects/Turnix_2.png",
+      "/imgProjects/Turnix_3.png",
+      "/imgProjects/Turnix_4.png",
+      "/imgProjects/Turnix_5.png",
+    ],
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Prisma",
+      "SQLite",
+      "next-intl",
+      "Authentication",
+      "Payments"
+    ],
+    mobile: false,
+  },
+  {
     title: "Quality Management Platform",
     category: "Quality Systems",
     description:
-      "Internal platform for quality operations, reporting, dashboards, team management and traceability.",
+      "Internal platform for quality operations, reporting, dashboards, team management and traceability. Built to centralize quality records, dashboards, user management and operational traceability.",
     images:[
       "/imgProjects/QualityManagementPlatform_1.png",
       "/imgProjects/QualityManagementPlatform_2.png",
@@ -58,30 +83,5 @@ export const projects = [
     ],
     technologies: ["React Native", "Expo", "Prisma", "SQLite", "i18next", "TypeScript", "Expo Router", "AsyncStorage",],
     mobile: true,
-  },
-    {
-    title: "Turnix Queue & Appointment Platform",
-    liveUrl: "https://turnix-saas.onrender.com/",
-    category: "Business Software",
-    description:
-      "Modular web platform for appointment scheduling, on-site queue management and payment tracking. Includes a customer-facing booking experience and an administrative dashboard to manage services, staff, clients, queue flow, payments, reporting and branding.",
-    images: [
-      "/imgProjects/Turnix_1.png",
-      "/imgProjects/Turnix_2.png",
-      "/imgProjects/Turnix_3.png",
-      "/imgProjects/Turnix_4.png",
-      "/imgProjects/Turnix_5.png",
-    ],
-    technologies: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "Prisma",
-      "SQLite",
-      "next-intl",
-      "Authentication",
-      "Payments"
-    ],
-    mobile: false,
-  },
+  },    
 ];

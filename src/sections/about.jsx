@@ -23,7 +23,7 @@ export default function About() {
 
               <div>Master's Degree in Engineering</div>
 
-              <div>10+ Years Industry Experience</div>
+              <div>20+ Years Industry Experience</div>
 
               <div>Manufacturing Operations</div>
 

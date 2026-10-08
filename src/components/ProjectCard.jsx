@@ -39,6 +39,7 @@ export default function ProjectCard({ project }) {
               <button
                 key={index}
                 onClick={() => setCurrentImage(index)}
+                aria-label={`View image ${index + 1} of ${project.title}`}
                 className={`h-2.5 w-2.5 rounded-full transition-all ${
                   currentImage === index ? "bg-emerald-400 w-6" : "bg-white/40"
                 }`}
